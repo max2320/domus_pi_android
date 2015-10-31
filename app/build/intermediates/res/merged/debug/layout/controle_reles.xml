@@ -1,0 +1,173 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:configChanges="orientation"
+    tools:context=".ControleRele" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:layout_gravity="fill"
+        android:layout_weight="0.05" >
+
+        <TableLayout
+            android:id="@+id/TableLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="422dp" >
+
+            <TableRow
+                android:id="@+id/TableRow01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ToggleButton
+                    android:id="@+id/btnRele0"
+                    style="@style/ButtonText"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53"
+                    android:background="@drawable/togglebutton"
+                    android:text="ToggleButton"
+                    android:textOff="Relé 1"
+                    android:textOn="Relé 1" />
+
+                <ToggleButton
+                    android:id="@+id/btnRele1"
+                    style="@style/ButtonText"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53"
+                    android:background="@drawable/togglebutton"
+                    android:text="ToggleButton"
+                    android:textOff="Relé 2"
+                    android:textOn="Relé 2" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ToggleButton
+                    android:id="@+id/btnRele2"
+                    style="@style/ButtonText"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53"
+                    android:background="@drawable/togglebutton"
+                    android:text="ToggleButton"
+                    android:textOff="Relé 3"
+                    android:textOn="Relé 3" />
+
+                <ToggleButton
+                    android:id="@+id/btnRele3"
+                    style="@style/ButtonText"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53"
+                    android:background="@drawable/togglebutton"
+                    android:text="ToggleButton"
+                    android:textOff="Relé 4"
+                    android:textOn="Relé 4" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ToggleButton
+                    android:id="@+id/btnRele4"
+                    style="@style/ButtonText"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53"
+                    android:background="@drawable/togglebutton"
+                    android:text="ToggleButton"
+                    android:textOff="Relé 5"
+                    android:textOn="Relé 5" />
+
+                <ToggleButton
+                    android:id="@+id/btnRele5"
+                    style="@style/ButtonText"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53"
+                    android:background="@drawable/togglebutton"
+                    android:text="ToggleButton"
+                    android:textOff="Relé 6"
+                    android:textOn="Relé 6" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ToggleButton
+                    android:id="@+id/btnRele6"
+                    style="@style/ButtonText"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53"
+                    android:background="@drawable/togglebutton"
+                    android:text="ToggleButton"
+                    android:textOff="Relé 7"
+                    android:textOn="Relé 7" />
+
+                <ToggleButton
+                    android:id="@+id/btnRele7"
+                    style="@style/ButtonText"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53"
+                    android:background="@drawable/togglebutton"
+                    android:text="ToggleButton"
+                    android:textOff="Relé 8"
+                    android:textOn="Relé 8" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ToggleButton
+                    android:id="@+id/btnRele8"
+                    style="@style/ButtonText"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53"
+                    android:background="@drawable/togglebutton"
+                    android:text="ToggleButton"
+                    android:textOff="Relé 9"
+                    android:textOn="Relé 9" />
+
+                <ToggleButton
+                    android:id="@+id/btnRele9"
+                    style="@style/ButtonText"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.53"
+                    android:background="@drawable/togglebutton"
+                    android:text="ToggleButton"
+                    android:textOff="Relé 10"
+                    android:textOn="Relé 10" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/home/lourenco/StudioProjects/DomusPi-corrected/app/src/main/res/layout/controle_reles.xml -->
